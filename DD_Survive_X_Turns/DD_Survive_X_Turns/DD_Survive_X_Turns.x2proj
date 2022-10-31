@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Guid>8b71821e-89cb-4b4f-bdab-9de8eed7f1a5</Guid>
+    <Name>SurviveXTurns</Name>
+    <Description>Can you survive?</Description>
+    <SteamPublishID>0</SteamPublishID>
+    <AssemblyName>DD_Survive_X_Turns</AssemblyName>
+    <RootNamespace>DD_Survive_X_Turns</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="Config\" />
+    <Folder Include="Localization\" />
+    <Folder Include="Content" />
+    <Folder Include="Localization\Strategy\Covert Actions" />
+    <Folder Include="Localization\Strategy\SurviveXTurns" />
+    <Folder Include="Localization\Tactical" />
+    <Folder Include="Localization\Strategy" />
+    <Folder Include="Localization\Tactical\SurviveXTurns" />
+    <Folder Include="Src\" />
+    <Folder Include="Src\SurviveXTurns\" />
+    <Folder Include="Src\SurviveXTurns\Classes\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Config\XComAi.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComEncounters.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComGameBoard.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComGameCore.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComGameData.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComLadder.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComMissionDefs.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComMissions.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComMissionSources.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComParcels.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComPlots.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComSchedules.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\DD_Obj_SurviveXTurns.umap">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\DD_SurviveXTurns.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\lg_SurviveXTurns_01.umap">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\lg_SurviveXTurns_02.umap">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\lg_SurviveXTurns_03.umap">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\lg_SurviveXTurns_04.umap">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\lg_SurviveXTurns_05.umap">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\lg_SurviveXTurns_06.umap">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\lg_SurviveXTurns_07.umap">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\lg_SurviveXTurns_08.umap">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\lg_SurviveXTurns_09.umap">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\md_SurviveXTurns_01.umap">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\md_SurviveXTurns_02.umap">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\md_SurviveXTurns_03.umap">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\md_SurviveXTurns_04.umap">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\md_SurviveXTurns_05.umap">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\md_SurviveXTurns_06.umap">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\md_SurviveXTurns_07.umap">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\md_SurviveXTurns_08.umap">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\sm_SurviveXTurns_01.umap">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\sm_SurviveXTurns_02.umap">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\sm_SurviveXTurns_04.umap">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\sm_SurviveXTurns_05.umap">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\Survive_X_Turns_Plot.umap">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\Survive_X_Turns_Plot2.umap">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Localization\Strategy\Covert Actions\XComGame.int">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Localization\Strategy\SurviveXTurns\SurviveXTurns.int">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Localization\Strategy\SurviveXTurns\XComGame.int">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Localization\Tactical\SurviveXTurns\XComGame.int">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ReadMe.txt" />
+    <Content Include="ModPreview.jpg" />
+    <Content Include="Config\XComEditor.ini" />
+    <Content Include="Config\XComEngine.ini" />
+    <Content Include="Config\XComGame.ini" />
+    <Content Include="Src\SurviveXTurns\Classes\SeqAct_GetCorrectUnitCount.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\SurviveXTurns\Classes\UIMission_SurviveXTurns.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\SurviveXTurns\Classes\X2DownloadableContentInfo_SurviveXTurns.uc" />
+    <Content Include="Src\SurviveXTurns\Classes\X2Helpers_Mission_SurviveXTurns.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\SurviveXTurns\Classes\X2Item_DD_Survive_X_Turns.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\SurviveXTurns\Classes\X2MissionNarrative_DD_Survive_X_Turns.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\SurviveXTurns\Classes\X2MissionSet_DD_Survive_X_Turns.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\SurviveXTurns\Classes\X2StrategyElement_CovertActions_SurviveXTurns.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\SurviveXTurns\Classes\X2StrategyElement_MissionSource_SurviveXTurns.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\SurviveXTurns\Classes\X2StrategyElement_Rewards_SurviveXTurns.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\SurviveXTurns\Classes\XComGameState_MissionSite_SurviveXTurns.uc">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)\XCOM2.targets" />
+</Project>

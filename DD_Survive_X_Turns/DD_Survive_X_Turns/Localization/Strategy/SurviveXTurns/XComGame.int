@@ -1,0 +1,28 @@
+[ResAct_Mission_SurviveXTurns_Success X2ResistanceActivityTemplate]
+DisplayName="Bases Evacuated:"
+
+[ResAct_Mission_SurviveXTurns_Failed X2ResistanceActivityTemplate]
+DisplayName="Bases Annihilated:"
+
+[DD_SurviveXTurns X2MissionTemplate]
+DisplayName="Help Evacuate the Compromised Resistance Outpost"
+Briefing="Defend The Area"
+PostMissionType="Survive"
+BriefingImage="img:///DD_SurviveXTurns.SurviveXTurnsBriefingImage"
+ObjectiveTextPools[0]="Defend"
+ObjectiveTextPools[1]="Secure Important Documents"
+PreMissionNarratives[0]="X2NarrativeMoments.TACTICAL.Unique.T_Unique_Missions_Terror_Attack_Central_04"
+
+[Reward_Mission_SurviveXTurns X2RewardTemplate]
+DisplayName="Mission that will give resources and personnel to XCOM"
+RewardDetails="Unlocks a Mission that gives many rewards."
+
+[MissionSource_SurviveXTurns X2MissionSourceTemplate]
++MissionPinLabel="Evacuate"
++BattleOpName="Operation K-1-0"
+MissionExpiredText="They were good people. What a shame."
+
+[SurviveXTurns X2MissionFlavorTextTemplate]
+FlavorText="MISSING FLAVOR TEXT"
+CouncilSpokesmanSuccessText="Word of the successful evacuation operation is already spreading. Your efforts today will no doubt bolster the resolve of Resistance forces across the globe, Commander."
+CouncilSpokesmanFailureText="It is unfortunate you were unable to secure the documents and delay the incursion, Commander. Our allies will no doubt question our methods after such a loss."

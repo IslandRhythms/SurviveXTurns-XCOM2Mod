@@ -1,0 +1,22 @@
+;A configuration File
+
+[DD_SurviveXTurns X2MissionNarrativeTemplate]
+ObjectiveTextPools[0]="Survive"
+ObjectiveTextPools[1]="Secure the documents"
+ObjectiveTextPools[2]="Hold Position until skyranger is finished"
+ObjectiveTextPools[3]="Evac with the documents"
+ObjectiveTextPools[4]="Evac XCom"
+ObjectiveTextPools[5]="BONUS: Kill Advent General"
+
+;Dialogue proxies
+ObjectiveTextPools[6]="CENTRAL"
+ObjectiveTextPools[7]="Menace 1-5, I've just received word that important documents have been left behind. Secure those documents and hold this position until skyranger is done helping resistance personnel with evacuation procedures."
+ObjectiveTextPools[8]="Menace 1-5, you are taking heavy losses. Find a position and hunker down until evac is ready. The resistance personnel must be evacuated first."
+ObjectiveTextPools[9]="Menace 1-5, nicely done. Killing this general will deal a huge blow to Advent's operation in the region, giving this region hope in rebuilding the cell."
+ObjectiveTextPools[10]="FIREBRAND"
+ObjectiveTextPools[11]="Menace 1-5, this is Firebrand. Resistance personnel are out and I'm heading to your position. Deploy flares to begin evac procedures."
+
+[DD_SurviveXTurns_ImportantDocuments X2QuestItemTemplate]
+FriendlyName="Important Documents"
+FriendlyNamePlural="Important Documents"
+LootTooltip="Important Information left behind by resistance personnel"
