@@ -18,6 +18,8 @@ In XComAI.ini, changes were made so the enemy AI will move to your position. How
 You can change this by going into the ini file and commenting all the lines by adding a semicolon in front.
 If you only want the AI change for this mission, you will have to go in and change that file every time.
 
+[h1]I do not know if this mod will work with whatever mods you have installed or want to install. I have a bunch of mods installed on my game and it didn't cause any problems. Feel free to try it with whatever mods you are running and comment if it causes a problem or not.[/h1]
+
 [h2] Huge Thanks to Σ3245 for their prison break mission. I wouldn't have been able to do this the way I wanted without using their mission as a template [/h2]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1788645591] Click Here to go to that mission [/url]
 
@@ -34,3 +36,5 @@ If you only want the AI change for this mission, you will have to go in and chan
 - SwfDelicious
 - Eclipsezr
 If I forgot you let me know.
+
+If you want to say more than thank you, feel free to [url=https://www.buymeacoffee.com/TheIslandRhythm]Buy me an apple[/url]

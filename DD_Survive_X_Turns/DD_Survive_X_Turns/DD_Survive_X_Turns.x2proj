@@ -25,6 +25,9 @@
     <Content Include="Config\XComAi.ini">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Config\XComEncounterLists.ini">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Config\XComEncounters.ini">
       <SubType>Content</SubType>
     </Content>
