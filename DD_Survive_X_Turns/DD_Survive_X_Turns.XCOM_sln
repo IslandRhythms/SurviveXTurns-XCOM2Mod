@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # XCOM ModBuddy Solution File, Format Version 11.00
 VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{5DAE07AF-E217-45C1-8DE7-FF99D6011E8A}") = "DD_Survive_X_Turns", "DD_Survive_X_Turns\DD_Survive_X_Turns.x2proj", "{500E51ED-8EF4-4FF0-8552-9F4469E20AD9}"
+Project("{5DAE07AF-E217-45C1-8DE7-FF99D6011E8A}") = "DD_Survive_X_Turns", "DD_Survive_X_Turns\DD_Survive_X_Turns.x2proj", "{133F958D-40A0-406A-9ACF-0876B02649BB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Default|XCOM 2 = Default|XCOM 2
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{500E51ED-8EF4-4FF0-8552-9F4469E20AD9}.Default|XCOM 2.ActiveCfg = Default|XCOM 2
-		{500E51ED-8EF4-4FF0-8552-9F4469E20AD9}.Default|XCOM 2.Build.0 = Default|XCOM 2
+		{133F958D-40A0-406A-9ACF-0876B02649BB}.Default|XCOM 2.ActiveCfg = Default|XCOM 2
+		{133F958D-40A0-406A-9ACF-0876B02649BB}.Default|XCOM 2.Build.0 = Default|XCOM 2
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
