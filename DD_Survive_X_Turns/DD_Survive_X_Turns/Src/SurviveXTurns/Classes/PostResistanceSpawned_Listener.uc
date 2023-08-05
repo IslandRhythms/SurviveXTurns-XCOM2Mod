@@ -33,7 +33,7 @@ static protected function EventListenerReturn OnPostResistanceSpawned(Object Eve
 	}
 
 	foreach StartState.IterateByClassType(class'XComGameState_AIGroup', GroupState) {
-		if (GroupState.EncounterID == 'Resx6_Std') {
+		if (GroupState.EncounterID == 'Resx6_Std' || GroupState.EncounterID == 'ChosenRetaliation_EntrenchedGuardsM2') {
 			GroupState = XComGameState_AIGroup(StartState.ModifyStateObject(class'XComGameState_AIGroup', GroupState.ObjectID));
 			GroupState.MyEncounterZoneWidth = 30;
 			GroupState.MyEncounterZoneDepth = 30;
