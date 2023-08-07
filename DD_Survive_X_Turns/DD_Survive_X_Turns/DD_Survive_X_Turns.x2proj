@@ -153,6 +153,9 @@
     <Content Include="Config\XComEditor.ini" />
     <Content Include="Config\XComEngine.ini" />
     <Content Include="Config\XComGame.ini" />
+    <Content Include="Src\SurviveXTurns\Classes\PostResistanceSpawned_Listener.uc">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Src\SurviveXTurns\Classes\SeqAct_GetCorrectUnitCount.uc">
       <SubType>Content</SubType>
     </Content>
